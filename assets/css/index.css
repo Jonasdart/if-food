@@ -30,21 +30,42 @@ li {
 }
 
 .menu-navegador {
-    padding: 10px;
-    background-color: black;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #32a869;
     color: white;
 
 }
 
-.center-item {
-    padding-right: 10%;
+.menu-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
 }
 
-.right-item {
-    display: flex;
-    align-items: right;
-    justify-content: right;
+.menu-item:hover {
+    background-color: darkseagreen;
 }
+
+.center-item {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* .right-item:hover {
+    background-color: #32a869;
+    color: black;
+    cursor: ;
+} */
+
+.right-item {
+    /* display: flex; */
+    /* padding-left: 600px; */
+    /* align-items: right; */
+    margin-left: 600px;
+    text-align: right;
+}
+
 
 
 .topo {
