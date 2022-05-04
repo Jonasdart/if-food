@@ -1,4 +1,5 @@
 actualImage = 1;
+secondsDelay = 5;
 
 function nextImage(){
     if(actualImage === 1){
@@ -12,4 +13,4 @@ function nextImage(){
     }
 }
 
-setInterval(nextImage, 5000);
+setInterval(nextImage, secondsDelay*1000);
